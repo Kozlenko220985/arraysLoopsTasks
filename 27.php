@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
+ *
  * User: admin
  * Date: 04.08.2017
  * Time: 13:18
+ * Создать генератор случайных таблиц
  */
 
 $rows=rand(2,15);
