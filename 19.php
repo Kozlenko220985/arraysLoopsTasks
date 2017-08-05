@@ -8,8 +8,8 @@
 текущий день выведите курсивом. Текущий день должен храниться в переменной $day
  */
 $arr = ['Mondey', 'Tuesday', 'Wednesday', 'Thursday', 'Frieday', 'Sunday', 'Saturday'];
+$day = date("l");
 foreach ($arr as $v){
-    $day = date("l");
     if ($day == $v){
         echo "<i> $v </i> <br>";
     }else{

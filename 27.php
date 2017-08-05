@@ -9,7 +9,7 @@
 
 $rows=rand(2,15);
 $cols=rand(2,15);
-$colors = ['red','yellow','blue','gray','maroon','brown','green'];
+    $colors = ['red','yellow','blue','gray','maroon','brown','green'];
 
 echo '<table border="1">';
 for($tr=1;$tr<=$rows;$tr++){

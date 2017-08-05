@@ -12,14 +12,15 @@ for ($i=0; $i <= 10; $i++){
     $arr[$i] = rand(1,10);
 }
 
+echo '<pre>';
 var_dump($arr);
+echo '</pre>';
 
 $min = (min($arr));
 $max = (max($arr));
 
-$max = $max + $min;
-$min = $max - $min;
-$max = $max - $min;
+$arr = array_reverse($arr);
 
-echo $max.'<br>';
-echo $min;
+echo '<pre>';
+var_dump($arr);
+echo '</pre>';

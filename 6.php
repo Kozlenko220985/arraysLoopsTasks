@@ -17,6 +17,8 @@ $arr = [
     'blue'=>'голубой'
 ];
 
+$en = [];
+$ru = [];
 foreach ($arr as $k => $v){
     $en[] = $k;
     $ru[] = $v;
